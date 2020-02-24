@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d679db93-8aed-4f68-b191-0762522f97ad" name="Default Changelist" comment="" />
+    <list default="true" id="d679db93-8aed-4f68-b191-0762522f97ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aggregators/AggregatorProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aggregators/AggregatorProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/AggregatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/AggregatorApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YED4Q0OhGm16EtEiJ1RG1HWrGo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,22 +67,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1582510015472">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1582510550903">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510015472" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1582510015471">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510550903" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1582510550900">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510015471" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1582510015470">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510550900" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1582510550899">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510015470" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1582510015471">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510550899" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1582510550901">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510015471" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582510550901" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1582509726787">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -93,16 +103,5 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1259" y="384" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.1057@-1920.23.1920.1057" timestamp="1582498676377" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/aggregators/AggregatorProcessor.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
