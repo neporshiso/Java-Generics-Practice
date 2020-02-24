@@ -7,29 +7,28 @@ import java.util.List;
 
 public class AggregatorProcessor <M extends Aggregator> {
 
-    List<Double> numbers;
-    Aggregator agg;
-    String s;
+    M aggregator;
+    String file;
 
-    public AggregatorProcessor(M agg, String s) {
-        this.agg = agg;
-        this.s = s;
-        this.numbers = agg.getValues();
+    public AggregatorProcessor(M aggregator, String file) {
+        super();
+        this.aggregator = aggregator;
+        this.file = file;
     }
 
-
-    public double runAggregator(int i) throws IOException {
-        StockFileReader read = new StockFileReader(s);
-        List<String> data = read.readFileData();
-        for (String num: data
+    public double runAggregator(int colIdx) throws IOException {
+        StockFileReader fileReader = new StockFileReader(file);
+        List<String> lines = fileReader.readFileData();
+        colIdx--;
+        for (String line: lines
              ) {
-            String[] split = num.split(",");
-            Double val = Double.parseDouble(split[i-1]);
-            numbers.add(val);
+            String[] numbers = line.split(",");
+            Double val = Double.parseDouble(numbers[colIdx]);
+            aggregator.add(val);
         }
 
-        double result = agg.calculate();
-        return result;
+        double number = aggregator.calculate();
+        return number;
     }
 
 }
